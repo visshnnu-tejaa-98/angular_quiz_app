@@ -1,18 +1,18 @@
 # QuizApp
 
-##Steps to run App
+## Steps to run App
 
-###Install Dependencies
+### Install Dependencies
 ```
 npm install
 ```
 
-###Run Angular App
+### Run Angular App
 ```
 ng serve
 ```
 
-###Run JSON Server
+### Run JSON Server
 ```
 npm run serve
 ```
