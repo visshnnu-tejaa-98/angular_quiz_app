@@ -1,0 +1,36 @@
+<app-nav></app-nav>
+<div class="container d-flex justify-content-center mt-5">
+	<div class="card" style="width: 35rem">
+		<div class="card-body">
+			<div class="row p-2">
+				<div class="col-md-5 col-sm-12 d-flex justify-content-center">
+					<img src="../../../assets/medal.png" alt="medal" width="200px" />
+				</div>
+				<div class="col-md-7 col-sm-12">
+					<p class="result-data">
+						<strong>Time Consumed :</strong>
+						{{ result.timeConsumend }} min
+					</p>
+					<p class="result-data">
+						<strong>Questions Answered :</strong>
+						{{ result.answeredQuestions }}
+					</p>
+					<p class="result-data">
+						<strong>Questions Correct :</strong> {{ result.correctAnswers }}
+					</p>
+					<p class="result-data">
+						<strong>Questions Incorrect :</strong> {{ result.inCorrectAnswers }}
+					</p>
+					<p class="result-data">
+						<strong>Questions unAnswered :</strong> {{ result.unAnsweredQuestion }}
+					</p>
+					<hr />
+					<p class="result-data"><strong>Total Points :</strong> {{ result.points }}</p>
+					<div class="d-flex justify-content-end">
+						<button class="btn btn-primary" (click)="logout()">Logout</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
